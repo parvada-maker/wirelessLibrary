@@ -1,0 +1,35 @@
+{
+  "name": "wirelesslibrary",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo-google-fonts/rajdhani": "*",
+    "@react-navigation/bottom-tabs": "^5.11.15",
+    "@react-navigation/native": "^5.9.8",
+    "expo": "~42.0.1",
+    "expo-barcode-scanner": "~10.2.2",
+    "expo-font": "~9.2.1",
+    "expo-permissions": "~12.1.1",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "2.7.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-vector-icons": "*",
+    "react-native-web": "0.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
